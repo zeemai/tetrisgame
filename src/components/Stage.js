@@ -1,10 +1,10 @@
 import React from 'react';
 import Cell from './Cell';
 
-const Stage = ( { stage } ) => {
+const Stage = ( { stage } ) => (
     <div>
         <Cell />
     </div>
-}
+);
 
 export default Stage;
